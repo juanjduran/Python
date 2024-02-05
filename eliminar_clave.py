@@ -3,7 +3,7 @@ Eliminar Clave: Elimina una clave específica de un diccionario si existe.
 """
 
 # Define la funcion que buscara una clave dentro del diccionario y la elimina si la encuentra (Esta predefinida
-# como 'clave' pero se puede cambiar, inclusive se puede hacer que ingrese la clave el usuario
+# como 'clave' pero se puede cambiar, inclusive se puede hacer que ingrese la clave el usuario)
 def buscar_clave(a):
     if a.get('clave'):
         a.pop('clave')
