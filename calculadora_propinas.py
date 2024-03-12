@@ -15,7 +15,7 @@ def calcular_porcentaje(a):
 def calcular_propina(a, b):
     return a * calcular_porcentaje(b)
 
-# Cuerpo del programas
+# Cuerpo del programa
 
 while True:
     try:
